@@ -40,9 +40,7 @@ const homeworkContainer = document.querySelector('#app');
  Массив городов пожно получить отправив асинхронный запрос по адресу
  https://raw.githubusercontent.com/smelukov/citiesTest/master/cities.json
  */
-function loadTowns() {
-  return;
-}
+loadTowns();
 
 /*
  Функция должна проверять встречается ли подстрока chunk в строке full
