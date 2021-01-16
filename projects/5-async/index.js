@@ -29,7 +29,7 @@
    homeworkContainer.appendChild(newDiv);
  */
 
-import { loadAndSortTowns } from './functions';
+import { loadAndSortTowns as loadTowns } from './functions';
 import './towns.html';
 
 const homeworkContainer = document.querySelector('#app');
@@ -41,7 +41,7 @@ const homeworkContainer = document.querySelector('#app');
  https://raw.githubusercontent.com/smelukov/citiesTest/master/cities.json
  */
 function loadTowns() {
-  return loadAndSortTowns();
+  return;
 }
 
 /*
