@@ -1,19 +1,19 @@
 {
   "proxy": {
     "/yamaps/list": {
-      "target": "http://localhost:8080",
+      "target": "http://localhost:8181",
       "pathRewrite": {
         "^/yamaps": ""
       }
     },
     "/yamaps/add": {
-      "target": "http://localhost:8080",
+      "target": "http://localhost:8181",
       "pathRewrite": {
         "^/yamaps": ""
       }
     },
     "/yamaps/coords": {
-      "target": "http://localhost:8080",
+      "target": "http://localhost:8181",
       "pathRewrite": {
         "^/yamaps": ""
       }
